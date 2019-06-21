@@ -1,6 +1,6 @@
 module.exports = (app) => {
-    const equitys = require('./equity.controller.js');
-    const Equity = require('./equity.model.js');
+    const equitys = require('../controller/equity.controller.js');
+    const Equity = require('../model/equity.model.js');
     // Create a new equity
     app.post('/equitys', equitys.create);
 

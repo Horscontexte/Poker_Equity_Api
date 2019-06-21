@@ -32,7 +32,7 @@ app.listen(config.serverport, () => {
     console.log("Server is listening on port 3000");
 });
 
-require('./equity.routes.js')(app);
+require('./routes/equity.routes.js')(app);
 // Connecting to the database
 mongoose.connect(config.url, {
     useNewUrlParser: true

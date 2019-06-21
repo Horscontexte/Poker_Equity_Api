@@ -8,7 +8,7 @@ const EquitySchema = mongoose.Schema({
     vilainEquity: String,
     splitEquity: String,
 }, {
-    timestamps: true
+    timestamps: false
 });
 
 module.exports = mongoose.model('Equitys', EquitySchema);

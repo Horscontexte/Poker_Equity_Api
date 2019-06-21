@@ -1,4 +1,4 @@
-const Equity = require('./equity.model.js');
+const Equity = require('../model/equity.model.js');
 
 //Create new Equity
 exports.create = (req, res) => {
