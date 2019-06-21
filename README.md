@@ -54,7 +54,8 @@ Sample :
         "splitEquity": "1",
     }
 ]`
-
+  - id (String)
+    - example : `"5d05b4ca0db5122a80bc6965"`
   - title (String)
     - example : `"AcAdAs9h"`
   - heroHand (String)
