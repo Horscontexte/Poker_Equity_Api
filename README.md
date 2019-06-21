@@ -33,7 +33,7 @@ MongoDB Server (Community Edition) is also a prerequisite, to get it on your sys
     - to see more documentation about mongoose : https://www.npmjs.com/package/mongoose
   - `npm install body-parser`
     - to see more documentation about body-parser : https://www.npmjs.com/package/body-parser
-  - Edit the config.js file with your mongodb url
+  - Edit the `config.js` file with your mongodb url
   - `node index.js` to start the API
     - The output should be `Server is listening on port 3000` and `Successfully connected to the database`
 
@@ -42,12 +42,34 @@ MongoDB Server (Community Edition) is also a prerequisite, to get it on your sys
 ### Equity model
 
   - title (String)
+    - example : `"AcAdAs9h"`
   - heroHand (String)
+    - example : `"AcAd"`
   - vilainHand (String)
+    - example : `"As9h"`
   - heroEquity (String)
+    - example : `"93"`
   - vilainEquity (String)
+    - example : `"6"`
   - splitEquity (String)
+    - example : `"1"`
 
+Sample : 
+
+`[
+    {
+        "_id": "5d05b4ca0db5122a80bc6965",
+        "title": "AcAdAs9h",
+        "heroHand": "AcAd",
+        "vilainHand": "As9h",
+        "heroEquity": "93",
+        "vilainEquity": "6",
+        "splitEquity": "1",
+        "createdAt": "2019-06-16T03:17:30.566Z",
+        "updatedAt": "2019-06-16T03:17:30.566Z",
+        "__v": 0
+    }
+]`
 ### Result model
 
   - heroHand (String)
