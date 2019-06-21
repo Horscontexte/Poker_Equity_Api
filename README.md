@@ -69,7 +69,7 @@ Sample :
   - splitEquity (String)
     - example : `"1"`
 
-### Result model
+### Result model (WIP)
 
   - heroHand (String)
   - ev (String)
