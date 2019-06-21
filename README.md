@@ -41,6 +41,20 @@ MongoDB Server (Community Edition) is also a prerequisite, to get it on your sys
 
 ### Equity model
 
+Sample :
+
+`[
+    {
+        "_id": "5d05b4ca0db5122a80bc6965",
+        "title": "AcAdAs9h",
+        "heroHand": "AcAd",
+        "vilainHand": "As9h",
+        "heroEquity": "93",
+        "vilainEquity": "6",
+        "splitEquity": "1",
+    }
+]`
+
   - title (String)
     - example : `"AcAdAs9h"`
   - heroHand (String)
@@ -54,22 +68,6 @@ MongoDB Server (Community Edition) is also a prerequisite, to get it on your sys
   - splitEquity (String)
     - example : `"1"`
 
-Sample : 
-
-`[
-    {
-        "_id": "5d05b4ca0db5122a80bc6965",
-        "title": "AcAdAs9h",
-        "heroHand": "AcAd",
-        "vilainHand": "As9h",
-        "heroEquity": "93",
-        "vilainEquity": "6",
-        "splitEquity": "1",
-        "createdAt": "2019-06-16T03:17:30.566Z",
-        "updatedAt": "2019-06-16T03:17:30.566Z",
-        "__v": 0
-    }
-]`
 ### Result model
 
   - heroHand (String)
