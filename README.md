@@ -5,7 +5,7 @@
   - Node.js
   - MongoDB
   - Project
-  
+
 - Data Model :file_folder:
   - Equity model
   - Result model
@@ -20,7 +20,7 @@ Node.js is a prerequisite, to get it on your system: https://nodejs.org/en/
 
 MongoDB Server (Community Edition) is also a prerequisite, to get it on your system : https://docs.mongodb.com/manual/installation/
 
-  - `sudo service mongod start` to start your MongoDB server 
+  - `sudo service mongod start` to start your MongoDB server
   - `mongo` to start the mongo shell and get your mongodb url
     - example : mongodb://127.0.0.1:27017/
 
@@ -39,8 +39,18 @@ MongoDB Server (Community Edition) is also a prerequisite, to get it on your sys
 
 ## Data
 
-### Equity model 
+### Equity model
 
+  - title (String)
+  - heroHand (String)
+  - vilainHand (String)
+  - heroEquity (String)
+  - vilainEquity (String)
+  - splitEquity (String)
 
+### Result model
 
- 
+  - heroHand (String)
+  - ev (String)
+  - callingRange (Object)
+  - gameConfiguration (Object)
