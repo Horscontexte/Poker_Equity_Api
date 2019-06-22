@@ -15,4 +15,6 @@ module.exports = (app) => {
 
     // Delete a Note with equityId
     app.delete('/results/:equityId', results.delete);
+
+    //
 }

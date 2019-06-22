@@ -69,9 +69,46 @@ Sample :
   - splitEquity (String)
     - example : `"1"`
 
-### Result model (WIP)
+### Result model
 
+Sample :
+
+`[
+    {
+        "_id": "5d0d88f522cfc63634d2ae45",
+        "heroHand": "AcAd",
+        "ev": "1.20000",
+        "callingRange": {
+          "vilainRange1": "Test1",
+          "vilainRange2": "Test2"
+          },
+        "gameConfiguration": {
+          "ante": "0.12",
+          "players": "3",
+          "stack": "11"
+          },
+        "createdAt": "2019-06-22T01:48:37.120Z",
+        "updatedAt": "2019-06-22T01:48:37.120Z",
+      }
+]`
+  - id (String)
+    - example : `"5d0d88f522cfc63634d2ae45"`
   - heroHand (String)
+    - example : `"AcAd"`
   - ev (String)
+    - example : `"1.20000"`
   - callingRange (Object)
+    - example : `{
+          "vilainRange1": "Test1",
+          "vilainRange2": "Test2"
+          }`
   - gameConfiguration (Object)
+    - example : `{
+          "ante": "0.12",
+          "players": "3",
+          "stack": "11"
+          }`
+  - createdAt (Date)
+    - example : `"2019-06-22T01:48:37.120Z"`
+  - updatedAt (Date)
+    - example : `"2019-06-22T01:48:37.120Z"`

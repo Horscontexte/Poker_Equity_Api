@@ -33,6 +33,7 @@ app.listen(config.serverport, () => {
 });
 
 require('./routes/equity.routes.js')(app);
+require('./routes/result.routes.js')(app);
 // Connecting to the database
 mongoose.connect(config.url, {
     useNewUrlParser: true
